@@ -4,7 +4,7 @@
 # This source code is licensed under the MIT license found in the
 # LICENSE file in the root directory of this source tree.
 
-version = "0.61.5"
+version = "0.60.5"
 
 source = { :git => 'https://github.com/facebook/react-native.git' }
 if version == '1000.0.0'
@@ -27,6 +27,5 @@ Pod::Spec.new do |s|
   s.preserve_paths         = "package.json", "LICENSE", "LICENSE-docs"
   s.header_dir             = "React"
 
-  s.dependency "React-Core", version
   s.dependency "AFNetworking/Security"
 end
